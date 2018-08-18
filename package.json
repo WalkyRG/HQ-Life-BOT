@@ -1,0 +1,12 @@
+{
+  "name": "hqLifeBot",
+  "version": "1.0.0",
+  "description": "Easy make HQ Life",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "prompt-sync": "^4.1.6",
+    "request": "^2.88.0",
+    "system-sleep": "^1.3.6",
+    "websocket": "^1.0.26"
+  }
+}

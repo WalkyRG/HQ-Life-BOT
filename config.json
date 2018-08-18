@@ -1,0 +1,42 @@
+{
+    "testAccount":
+    {
+        "BEARER_TOKEN": "YOUR_TOKEN"
+    },
+    "requestInfo": {
+        "shows": {
+            "url": "https://api-quiz.hype.space/shows/now?type=hq"
+        },
+        "verifications": {
+            "url": "https://api-quiz.hype.space/verifications",
+            "body": "{\"phone\":\"(phoneNumber)\",\"method\":\"sms\"}"
+        },
+        "verificationsCode": {
+            "url": "https://api-quiz.hype.space/verifications/(verificationId)",
+            "body": "{\"code\":\"(code)\"}"
+        },
+        "verifyUsername": {
+            "url": "https://api-quiz.hype.space/usernames/available",
+            "body": "{\"username\":\"(username)\"}"
+        },
+        "registerUser": {
+            "url": "https://api-quiz.hype.space/users",
+            "body": "{\"username\":\"(username)\",\"locale\":\"US\",\"language\":\"en\",\"timeZone\":\"Etc\/GMT-2\",\"referringUsername\":\"(referralCode)\",\"verificationId\":\"(verificationId)\",\"country\":\"us\"}"
+        },
+        "customHeaders": {
+            "Host": "api-quiz.hype.space",
+            "Accept": "*/*",
+            "Accept-Encoding": "br, gzip, deflate",
+            "Accept-language": "en",
+            "Content-Type": "application/json",
+            "Connection": "keep-alive",
+            "User-Agent": "HQ-iOS/105 CFNetwork/894 Darwin/17.4.0",
+            "x-hq-client": "iOS/1.3.16 b105",
+            "x-hq-country": "us",
+            "x-hq-device": "iPhone9,3",
+            "x-hq-lang": "en",
+            "x-hq-test-key": "",
+            "x-hq-timezone": "Etc/GMT-3"
+        }
+    }
+}
